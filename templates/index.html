@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="/static/global.css" />
+  <link rel="stylesheet" href="/static/index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" />
+</head>
+
+<body>
+  <div class="login-info-page">
+    <!-- <img class="bg-2-icon" alt="" src="./public/bg-2@2x.png" /> -->
+
+    <div class="home-navigastion">
+      <div class="home-parent" id="groupContainer">       
+        <div class="nav"> 
+          <span class="home">Home</span>
+          <span class="service">Service</span>
+          <span class="about">About</span>
+          <span class="contact-us">Contact us</span>
+        </div>
+        <img class="logo-1-icon" alt="" src="/static/public/logo-1@2x.png" />
+      </div>
+    </div>
+
+
+    <div class="login-container">
+      <div class="login-container-left">
+        <img class="undraw-access-account-re-8spm-icon" alt=""
+          src="/static/public/undraw-access-account-re-8spm-1.svg" />
+      </div>
+      <div class="login-container-right">
+        <div class="rectangle-parent" id="groupContainer1">
+
+          <button class="student-login">
+            <a href="/studentlogin" style="text-decoration: none; color: #fff;"> Student Login</a>
+          </button>
+          <div class="dont-have-an-container" id="dontHaveAn">
+            <span class="dont-have-an-account">
+              <span>Don’t have an account ?</span>
+              <span class="span"> </span>
+            </span>
+            <span class="sign-up"><a href="/createAccount" style="text-decoration: none; color: #176b87;">Sign Up</a></span>
+          </div>  
+        </div>
+        <div class="rectangle-group" id="groupContainer2">
+          <button class="client-login"><a href="/client" style="text-decoration: none; color: #fff;"> Clint Login</a></button>
+          <!-- <div class="clint-login">Clint Login</div> -->
+          <div class="dont-have-an-container" id="dontHaveAn1">
+            <span class="dont-have-an-account">
+              <span>Don’t have an account ?</span>
+              <span class="span"> </span>
+            </span>
+            <span class="sign-up"><a href="/createAccount" style="text-decoration: none; color: #176b87;">Sign Up</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var groupContainer = document.getElementById("groupContainer");
+    if (groupContainer) {
+      groupContainer.addEventListener("click", function (e) {
+        // Please sync "Home" to the project
+      });
+    }
+
+    var dontHaveAn = document.getElementById("dontHaveAn");
+    if (dontHaveAn) {
+      dontHaveAn.addEventListener("click", function (e) {
+        // Please sync "Craet Account Page" to the project
+      });
+    }
+
+    var groupContainer1 = document.getElementById("groupContainer1");
+    if (groupContainer1) {
+      groupContainer1.addEventListener("click", function (e) {
+        // Please sync "User Login Page" to the project
+      });
+    }
+
+    var dontHaveAn1 = document.getElementById("dontHaveAn1");
+    if (dontHaveAn1) {
+      dontHaveAn1.addEventListener("click", function (e) {
+        // Please sync "Craet Account Page" to the project
+      });
+    }
+
+    var groupContainer2 = document.getElementById("groupContainer2");
+    if (groupContainer2) {
+      groupContainer2.addEventListener("click", function (e) {
+        // Please sync "Clint Login Page" to the project
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+.login-info-page, 
+.clint-login-page,
+.forgot-password,
+.resturent-page,
+.order-conform,
+.conform-your-orderd,
+.menu1,
+.flooer-and-room-number {
+  /* position: relative; */
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  /* height: 1080px; */
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-roboto);
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  background-image: url(./public/bg-2@2x.png);
+  background-size: contain;
+}
+
+.bg-2-icon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  background-image: url(./public/bg-2@2x.png);
+}
+
+.autom8,
+.bg-2-icon {
+  position: absolute;
+}
+
+.autom8 {
+  top: 18px;
+  left: 46px;
+  display: none;
+}
+
+.home-parent {
+  position: absolute;
+  height: 164px;
+}
+
+.logo-1-icon {
+  top: 18px;
+  left: 0;
+  width: 164px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-parent {
+  position: absolute;
+  /* top: -25px; */
+  /* left: 15px; */
+  bottom: 20px;
+  left: 34px;
+  height: 95px;
+  width: 100%;
+  /* width: 1775px; */
+  cursor: pointer;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  /* background-color: aqua; */
+  flex: 0.8;
+  position: absolute;
+  right: 0;
+  margin-right: 70px;
+  color: #176b87;
+}
+
+.nav span:hover {
+  border-bottom: 2px solid #053b50;
+}
+
+.home,
+.service,
+.about,
+.contact-us {
+  margin-right: 20px;
+  font-size: 1.1rem;
+}
+
+/* .home, .service, .about, .contact-us{
+  margin-right: 20px;
+} */
+.home-navigastion {
+  position: relative;
+  width: 100vw;
+  height: 18vh;
+  overflow: hidden;
+  text-align: left;
+  font-family: var(--font-inter);
+}
+
+.login-container,
+.client-login-container,
+.createAccount-Container,
+.forgot-password-container,
+.resturent-page-container,
+.order-conform-container,
+.conform-your-orderd-container,
+.menu1-container,
+.flooer-and-room-number-container {
+  width: 100%;
+  height: 88vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container-left,
+.client-login-container-left,
+.createAccount-left,
+.forgot-password-container-left,
+.conform-your-orderd-left {
+  flex: 0.5;
+  height: 100%;
+  position: relative;
+  /* background-color: yellow; */
+}
+.undraw-access-account-re-8spm-icon {
+  position: absolute;
+  right: 0;
+  height: 80%;
+  /* width: 400px; */
+  overflow: hidden;
+  /* z-index: 100; */
+}
+
+.span {
+  color: var(--color-black);
+}
+
+.dont-have-an-account {
+  font-weight: 200;
+}
+
+.sign-up {
+  font-weight: 400;
+  color: var(--color-steelblue);
+}
+
+.dont-have-an-container {
+  /* position: absolute; */
+  /* top: 127px; */
+  /* left: 16px; */
+  font-size: 17px;
+  /* font-size: var(--font-size-5xl); */
+  letter-spacing: 0.04em;
+  line-height: 158.5%;
+  cursor: pointer;
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+
+.login-container-right,
+.client-login-container-right,
+.createAccount-right,
+.forgot-password-container-right,
+.conform-your-orderd-right {
+  flex: 0.5;
+  /* background-color: red   ; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rectangle-parent {
+  width: 470px;
+  height: 200px;
+  /* background-color: yellow; */
+}
+
+.rectangle-group {
+  width: 470px;
+  height: 200px;
+  /* background-color: yellow; */
+}
+
+.student-login,
+.client-login {
+  border: 0;
+  padding: 0;
+  /* background-color: #176B87; */
+  background-color: var(--color-steelblue);
+  /* top: 0; */
+  /* left: 0; */
+  border-radius: var(--br-121xl);
+  /* height: 116px;
+  width: 461px; */
+  font-size: 28px;
+  width: 300px;
+  height: 60px;
+  cursor: pointer;
+  /* font-weight: 400; */
+
+  color: #EEE;
+  text-align: center;
+  font-family: Roboto;
+  /* font-size: 48px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .group-item,
+.rectangle-parent {
+  position: absolute;
+  top: 305px;
+  left: 1191px;
+  width: 461px;
+  height: 165px;
+  cursor: pointer;
+} */
+/* .group-item {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-steelblue);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-121xl);
+  height: 116px;
+}
+.clint-login{
+  position: absolute;
+  top: 30px;
+  left: 117px;
+}
+.rectangle-group {
+  top: 692px;
+  left: 1191px;
+  width: 461px;
+  height: 165px;
+  cursor: pointer;
+} */

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-irish-grover: "Irish Grover";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-29xl: 48px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-whitesmoke-100: #eee;
+  --color-whitesmoke-200: rgba(238, 238, 238, 0.93);
+}

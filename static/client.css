@@ -1,0 +1,214 @@
+
+.user-login-1 {
+  position: absolute;
+  overflow: hidden;
+}
+/* .home-navigastion {
+  top: 51px;
+  left: 34px;
+  width: 1851px;
+  height: 95px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+} */
+.user-login-1 {
+  top: 252px;
+  left: 113px;
+  width: 847px;
+  height: 665px;
+}
+.clint-login-page-child {
+  position: absolute;
+  top: 20px;
+  /* left: 1110px; */
+  border-radius: 38px;
+  background-color: rgba(238, 238, 238, 0.16);
+  box-shadow: 0 0 5px 4px rgba(5, 59, 80, 0.25);
+  width: 505px;
+  /* background-color: yellow; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 420px;
+  flex-direction: column;
+}
+
+.clint-login-page-inner,
+.clint-login-page-item {
+  /* position: absolute; */
+  /* top: 502px; */
+  /* left: 1157px; */
+  border-top: 4px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 612px;
+  height: 4px;
+}
+/* .clint-login-page-inner { */
+  /* top: 632px; */
+/* } */
+.group-child {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  border-radius: 6px;
+  background-color: var(--color-steelblue);
+  width: 162px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  height: 42px;
+  border: none;
+}
+.forgot-password {
+  /* top: 17px; */
+  /* left: 381px; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* font-size: var(--font-size-5xl); */
+  letter-spacing: 0.09em;
+  color: var(--color-steelblue);
+}
+.rectangle-parent {
+  /* position: relative; */
+  /* top: 691px; */
+  /* left: 1159px; */
+  /* background-color: aqua; */
+  width: 424px;
+  margin-top: 25px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  color: #eee;
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 13px;
+  background-color: #d9d9d9;
+  width: 537px;
+  height: 62px;
+}
+.span {
+  color: #000;
+}
+.dont-have-an-account {
+  font-weight: 300;
+}
+.sign-up {
+  font-weight: 500;
+  color: var(--color-steelblue);
+}
+.dont-have-an-container {
+  /* position: absolute; */
+  /* top: 12px; */
+  /* left: 54px; */
+  width: 437px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #D9D9D9;
+  margin-top: 30px;
+  /* background-color: red; */
+  letter-spacing: 0.06em;
+  line-height: 158.5%;
+}
+.rectangle-group {
+  position: absolute;
+  top: 806px;
+  left: 1194px;
+  width: 537px;
+  height: 62px;
+  cursor: pointer;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+
+.clint-login {
+  /* position: absolute; */
+  /* top: 10px; */
+  /* left: 10px; */
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+  line-height: 158.5%;
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  width: 355px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 60px; */
+  margin-top: 20px;
+}
+.client-login-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* background: red; */
+}
+.client-login-form input {
+  outline: none;
+  /* position: relative; */
+  border: none;
+  width: 380px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 30px;
+  background: none;
+  padding-left: 40px;
+  border-bottom: 4px solid #053B50;
+  /* gap: 20px; */
+}
+.envelope-1-icon,
+.eye-1-icon,
+.padlock-1-icon {
+  position: absolute;
+  top: 35px;
+  left: 3px;
+  width: 33px;
+  height: 31px;
+  object-fit: cover;
+}
+
+.padlock-1-icon {
+  position: absolute;
+  top: 105px;
+  left: 3px;
+  width: 37px;
+  height: 37px;
+}
+.eye-1-icon {
+  top: 588px;
+  left: 1717px;
+  width: 35px;
+  height: 35px;
+}
+/* .clint-login-page {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-roboto);
+} */
+
+.undraw-access-account-re-8spm-icon{
+  height: 80%;
+}
+.client-login-container-right {
+  /* margin-bottom: 50px; */
+  position: relative;
+}

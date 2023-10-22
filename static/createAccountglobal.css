@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-darkslategray: #053b50;
+  --color-steelblue: #176b87;
+  --color-gainsboro-100: rgba(217, 217, 217, 0);
+  --color-darkgray: rgba(167, 167, 167, 0.93);
+
+  /* Border radiuses */
+  --br-mid: 17px;
+}

@@ -1,0 +1,49 @@
+.resturent-list {
+  width: 90%;
+  height: 80%;
+  /* background-color: yellow; */
+  display: flex;
+  margin-left: 15px;
+  /* gap: 25px; */
+}
+
+.resturent-1 {
+  width: 380px;
+  height: 400px;
+  /* background-color: aqua; */
+  position: relative;
+}
+
+.resturent-square {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 80%;
+  height: 300px;
+  border-radius: 0 50% 0 0;
+  /* background-color: aquamarine; */
+  border: 5px solid grey;
+}
+
+.resturent-square span {
+  color: #053B50;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  bottom: 40px;
+  left: 50px; 
+}
+
+.restaurant-img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  /* z-index: 100; */
+  left: 0;
+  top: 0;
+}

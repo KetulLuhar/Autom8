@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="/static/index.css" />
+  <link rel="stylesheet" href="/static/clientGlobal.css" />
+  <link rel="stylesheet" href="/static/client.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" />
+</head>
+
+<body>
+  <div class="clint-login-page">
+    <!-- <img class="bg-1-icon" alt="" src="/static/public/bg-1@2x.png" /> -->
+
+    <div class="home-navigastion">
+      <!-- <b class="autom8">AUTOM8</b> -->
+      <div class="home-parent" id="groupContainer">
+        <div class="nav">
+          <span class="home">Home</span>
+          <span class="service">Service</span>
+          <span class="about">About</span>
+          <span class="contact-us">Contact us</span>
+        </div>
+        <img class="logo-1-icon" alt="" src="/static/public/logo-1@2x.png" />
+      </div>
+    </div>
+
+    <div class="client-login-container">
+      <div class="client-login-container-left">
+        <img class="undraw-access-account-re-8spm-icon" alt="" src="/static/public/user-login-1.svg" />
+      </div>
+      <div class="client-login-container-right">
+        <div class="clint-login-page-child">
+          <span class="clint-login">CLIENT LOGIN</span>
+          <div class="clint-login-crediential">
+            <form action="" class="client-login-form">
+              <img class="envelope-1-icon" alt="" src="/static/public/envelope-1@2x.png" />
+              <input type="email" placeholder="Email Id">
+              <img class="padlock-1-icon" alt="" src="/static/public/padlock-1@2x.png" />
+              <img class="eye-1-icon" alt="" src="/static/public/eye-1@2x.png" />
+              <input type="password" placeholder="Password">
+            </form>
+            <div class="rectangle-parent">
+              <button class="login group-child">LOGIN</button>
+              <span class="forgot-password">Forgot Password?</span>
+            </div>
+            <div class="dont-have-an-container">
+              <span class="dont-have-an-account">
+                <span>Don’t have an account ?</span>
+                <span class="span"> </span>
+              </span>
+              <span class="sign-up"><a href="/template/createAccount.html" style="text-decoration: none; color: #176b87;">Sign Up</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+      
+      <div class="rectangle-group" id="groupContainer2">
+        <div class="group-item"></div>
+        <div class="dont-have-an-container">
+          <span class="dont-have-an-account">
+            <span>Don’t have an account ?</span>
+            <span class="span"> </span>
+          </span>
+          <span class="sign-up">Sign Up</span>
+        </div>
+      </div>
+      <img class="envelope-1-icon" alt="" src="/static/public/envelope-1@2x.png" />
+
+      
+      <b class="clint-login">CLINT LOGIN</b> -->
+  </div>
+
+  <script>
+    var homeText = document.getElementById("homeText");
+    if (homeText) {
+      homeText.addEventListener("click", function (e) {
+        // Please sync "Home" to the project
+      });
+    }
+
+    var groupContainer2 = document.getElementById("groupContainer2");
+    if (groupContainer2) {
+      groupContainer2.addEventListener("click", function (e) {
+        // Please sync "Craet Account Page" to the project
+      });
+    }
+  </script>
+</body>
+
+</html>

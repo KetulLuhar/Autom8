@@ -1,0 +1,28 @@
+.order-confirm-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.order-confirm-box span {
+  /* position: absolute; */
+  color: #053B50;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 161.187%;
+  /* 77.37px */
+  /* background-color: yellow; */
+}
+
+.order-confirm-box img {
+  height: 80%;
+  /* background-color: aquamarine; */
+  margin-bottom: 30px;
+}
+

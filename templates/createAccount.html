@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="/static/index.css" />
+  <link rel="stylesheet" href="/static/createAccountglobal.css" />
+  <link rel="stylesheet" href="/static/creatAccount.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" />
+</head>
+
+<body>
+  <div class="craet-account-page">
+    <!-- <img class="bg-2-icon" alt="" src="/static/public/bg-2@2x.png" /> -->
+
+    <div class="home-navigastion">
+      <!-- <b class="autom8">AUTOM8</b> -->
+      <div class="home-parent" id="groupContainer">
+        <div class="nav">
+          <span class="home">Home</span>
+          <span class="service">Service</span>
+          <span class="about">About</span>
+          <span class="contact-us">Contact us</span>
+        </div>
+        <img class="logo-1-icon" alt="" src="/static/public/logo-1@2x.png" />
+      </div>
+    </div>
+
+    <div class="createAccount-Container">
+      <div class="createAccount-left">
+        <img class="undraw-profile-re-4a55-1-icon" alt="" src="/static/public/undraw-profile-re-4a55-1.svg" />
+      </div>
+      <div class="createAccount-right">
+        <div class="craet-account-page-child">
+          <b class="create-your-account">Create Your Account</b>
+          <div class="create-account-form">
+            <form class="account-form">
+              <div class="name">
+                <label for="" class="label-design">Full Name</label>
+                <input type="text" class="input-design">
+              </div>
+              <div class="email">
+                <label for="" class="label-design">Your Email Address</label>
+                <input type="text" class="input-design">
+              </div>
+              <div class="account-type">
+                <label for="account">Choose Account Type:</label>
+                <select name="account" id="account">
+                  <option value="client">Client</option>
+                  <option value="user">User</option>
+                </select>
+              </div>
+              <div class="password">
+                <label for="" class="label-design">Password</label>
+                <input type="text" class="input-design">
+              </div>
+              <div class="confirm_password">
+                <label for="" class="label-design">Confirm Password</label>
+                <input type="text" class="input-design">
+              </div>
+            </form>
+            <button class="creatAccount-btn">Create New</button>
+          </div>
+          <div class="already-have-an-container">
+            <span class="already-have-an-account">
+              <span>Already have an account ?</span>
+              <span class="span"> </span>
+            </span>
+            <span class="sign-in"><a href="/template/createAccount.html" style="text-decoration: none; color: #176b87;">Sign Up</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="full-name-parent">
+      <div class="full-name">Full Name</div>
+      <div class="group-child"></div>
+    </div>
+    <div class="your-email-address-parent">
+      <div class="full-name">Your Email Address</div>
+      <div class="group-child"></div>
+    </div>
+    <div class="password-parent">
+      <div class="full-name">Password</div>
+      <div class="group-inner"></div>
+    </div>
+    <div class="confirm-password-parent">
+      <div class="full-name">Confirm Password</div>
+      <div class="group-child"></div>
+    </div>
+    <div class="rectangle-parent">
+      <div class="group-child1"></div>
+      <div class="create-new">Create New</div>
+    </div>
+    <div class="rectangle-group" id="groupContainer6">
+      <div class="group-child2"></div>
+    </div>
+     -->
+  </div>
+
+  <script>
+    var homeText = document.getElementById("homeText");
+    if (homeText) {
+      homeText.addEventListener("click", function (e) {
+        // Please sync "Home" to the project
+      });
+    }
+
+    var groupContainer6 = document.getElementById("groupContainer6");
+    if (groupContainer6) {
+      groupContainer6.addEventListener("click", function (e) {
+        // Please sync "Login INFO PAGE" to the project
+      });
+    }
+  </script>
+</body>
+
+</html>
